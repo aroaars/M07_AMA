@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: f2dfe0bc47ca149ed8678deda0bbc0bf
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas_01_Mat
+    second: {fileID: 2100000, guid: 2c5688c3c21d643d9885811ee86472dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas_03_Mat
+    second: {fileID: 2100000, guid: 208be2c5b636a4c2ca5d67a7154d7286, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas_05_Mat
+    second: {fileID: 2100000, guid: 6e14ccc857e3a46e68842dd7213a6683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parquet_01_Mat
+    second: {fileID: 2100000, guid: 18286ec9572374c778d1e73ccf213109, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas01_Mat_baseColor
+    second: {fileID: 2800000, guid: 91ae75a4750874cddaefabcb25a03b22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas02_Mat_baseColor
+    second: {fileID: 2800000, guid: 582925a11903b4327adee5a7f56709dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas03_Mat_baseColor
+    second: {fileID: 2800000, guid: f26be2c449b884163a7003373fcc5adb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas03_Mat_normal
+    second: {fileID: 2800000, guid: 158b4c19e4aa646c2a7ec06c1c3a3a27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_01_Albedo
+    second: {fileID: 2800000, guid: 1a4226b7ab3a14863bc12e5230220810, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_01_Normal
+    second: {fileID: 2800000, guid: 8375a5fdf3cf1458880391922a28c79b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_02_Albedo
+    second: {fileID: 2800000, guid: ec18b0685b53e4e3fa6a2eaabaf0b560, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_02_Normal
+    second: {fileID: 2800000, guid: 9104245d44aee4973b9d5bca1cf67f4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_03_Albedo
+    second: {fileID: 2800000, guid: 746f3ded6a4fc4b27aee76ac614a4fb3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_03_Normal
+    second: {fileID: 2800000, guid: f43fa83d1275947bda3c6e5ba4d890ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_04_Albedo
+    second: {fileID: 2800000, guid: 87f7920046feb498f944432367cd3ba7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_04_Mat_baseColor
+    second: {fileID: 2800000, guid: 8ceb7686dd30f42d4bfc5bb52d2ae97e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_04_Mat_normal
+    second: {fileID: 2800000, guid: 5420114c0627043929d10528545ba472, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_04_Normal
+    second: {fileID: 2800000, guid: 0e1ff84ff65a841b0846b67452305365, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_05_Albedo
+    second: {fileID: 2800000, guid: 6812878f12abf4cf48cb818ed3f82add, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_05_Normal
+    second: {fileID: 2800000, guid: 277c6cc3763a94e00b1dbd4521c70b45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_FX_Albedo
+    second: {fileID: 2800000, guid: 5a593b129545548ecbfc2034c26548fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Atlas_FX_Emissive
+    second: {fileID: 2800000, guid: 1fa927a8787c24a51902f6ffaea186dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beer_Albedo
+    second: {fileID: 2800000, guid: e341ef6c02de1407eabddae9af1e1051, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beer_Earrings_U_Albedo
+    second: {fileID: 2800000, guid: 29767dd9dbe754ffbb2c962f0ceab0cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BoardCutout_Albedo
+    second: {fileID: 2800000, guid: 09b2565e6975b47718e71a9b402dd37e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BoardCutout_Mat_baseColor
+    second: {fileID: 2800000, guid: 58cc56391df814fc7918fe7ea41d83ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Clothes_Albedo
+    second: {fileID: 2800000, guid: cedfac3d5a3664a9ca237edcef9fb622, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Food_Albedo
+    second: {fileID: 2800000, guid: 8ca8402dd0cfc47258481a49a69f622c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Food_Mat_baseColor
+    second: {fileID: 2800000, guid: dfff38797048f4e928f91aed3fe9ba14, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GamebeerBackground_Albedo
+    second: {fileID: 2800000, guid: 532dd204d8c1d440baca3a3ebc5ea950, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Grass_Albedo
+    second: {fileID: 2800000, guid: fdeae429c32be44fa914a00d9c2d2cc1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Grass_Mat_baseColor
+    second: {fileID: 2800000, guid: ed81622e29e944c8b811f2645f20334a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Grass_Normal
+    second: {fileID: 2800000, guid: 282ab6be3b0104e5b8f3a68ba5a5099e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GreenSkirt_oktoberfest_M_Albedo
+    second: {fileID: 2800000, guid: 8042dd74fe68e435a983f725ba02f3d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Letters_Albedo
+    second: {fileID: 2800000, guid: 01ddc0b2e2f104eaf89be443466d182a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Logo_Polygonal_Mat_baseColor
+    second: {fileID: 2800000, guid: 03c49750895b34223921f3faeaaa5e22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Logos_Albedo
+    second: {fileID: 2800000, guid: fe58bef55cf174307bff72aa03c8e29b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: New_wood_mat_baseColor
+    second: {fileID: 2800000, guid: 03bbbf4fbaad048ceaf5d7f2e801e555, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: New_wood_mat_normal
+    second: {fileID: 2800000, guid: c992c8f86c10c4b51b2e2099c86d3b7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Parque_01_Albedo
+    second: {fileID: 2800000, guid: 6128b2e2d28334f16885fb2a93bf93a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Parque_01_Normal
+    second: {fileID: 2800000, guid: fd2323f089e7f48a8b7e197c6248c975, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Parque_02_Albedo
+    second: {fileID: 2800000, guid: 6914f1d1cacc9478c852692ca67af650, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Parque_02_Normal
+    second: {fileID: 2800000, guid: e966e4acbf3e945cebfad64549d8358c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Parquet01_Mat_baseColor
+    second: {fileID: 2800000, guid: 70d640ae07adc4367a327ced47cb275b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Parquet02_Mat_baseColor
+    second: {fileID: 2800000, guid: d980f9440966d4dd883b0544d711582e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Parquet02_Mat_normal
+    second: {fileID: 2800000, guid: 85b71e50b59c34822b23e7bfc79b649d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PathWay_mat_baseColor
+    second: {fileID: 2800000, guid: c1d5dc0cc90514752bb78ca85ddce91d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PathWay_mat_normal
+    second: {fileID: 2800000, guid: 1d3f2502e6fc74966bce1b1e6e9f9510, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plaster_Wall_Albedo
+    second: {fileID: 2800000, guid: 5eb5adb83e6f441049dd2c010f21c789, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plaster_Wall_Normal
+    second: {fileID: 2800000, guid: 588abde576a56419e9cbb0b9eebc79fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plasterboard_Mat_baseColor
+    second: {fileID: 2800000, guid: 0a41a77b798874de3a2aac782ba18613, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stickers_Albedo
+    second: {fileID: 2800000, guid: b307c7e0768f44a93a93b3c7f0193547, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TableCloth_Mat_baseColor
+    second: {fileID: 2800000, guid: 3a21879478dbd4da290936795df9c138, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tablecloth_Albedo
+    second: {fileID: 2800000, guid: cd27b54cefe9e4d6cb0bb55f21d509de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tablecloth_Normal
+    second: {fileID: 2800000, guid: 8068fd831b8b2461ba86c8c618844652, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: uBody_oktoberfest_F_Albedo
+    second: {fileID: 2800000, guid: 095e1efa5e7624e3394a5f4c7c637f08, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: uBody_oktoberfest_M_Albedo
+    second: {fileID: 2800000, guid: 5d6dc9a6322f446169a5907a95b1ede2, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
